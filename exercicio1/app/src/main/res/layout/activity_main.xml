@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNotaUm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/notaUm" />
+
+    <EditText
+        android:id="@+id/edtNotaUm"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNotaUm"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtNotaDois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNotaUm"
+        android:text="@string/notaDois"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNotaDois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNotaDois"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNotaDois"
+        android:text="@string/btnCalcular"/>
+
+    <TextView
+        android:id="@+id/txtMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcular"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/txtMedia" />
+
+    <TextView
+        android:id="@+id/txtAprovacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMedia"
+        android:gravity="center"
+        android:text="@string/txtAprovacao"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

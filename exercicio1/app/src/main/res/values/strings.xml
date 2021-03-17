@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">exercicio1</string>
+    <string name="notaUm">Nota 1:</string>
+    <string name="notaDois">Nota 2:</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtMedia">Media: </string>
+    <string name="txtAprovacao">Aprovação: </string>
+</resources>
