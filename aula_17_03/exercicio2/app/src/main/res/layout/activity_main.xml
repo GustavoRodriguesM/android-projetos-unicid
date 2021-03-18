@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtPrecoAlcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/txtPrecoAlcool" />
+
+    <EditText
+        android:id="@+id/edtPrecoAlcool"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPrecoAlcool"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtPrecoGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPrecoAlcool"
+        android:text="@string/txtPrecoGasolina"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPrecoGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPrecoGasolina"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtKmLitroAlcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPrecoGasolina"
+        android:text="@string/txtKmLitroAlcool"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtKmLitroAlcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtKmLitroAlcool"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtKmLitroGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtKmLitroAlcool"
+        android:text="@string/txtKmLitroGasolina"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtKmLitroGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtKmLitroGasolina"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtKmLitroGasolina"
+        android:text="@string/btnCalcular"/>
+
+    <TextView
+        android:id="@+id/txtMelhorOpcao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcular"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

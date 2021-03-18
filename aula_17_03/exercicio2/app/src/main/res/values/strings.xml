@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">exercicio2</string>
+    <string name="txtPrecoAlcool">Preço do Alcool</string>
+    <string name="txtPrecoGasolina">Preço da gasolina</string>
+    <string name="txtKmLitroAlcool">km/Litro de Alcool</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtKmLitroGasolina">km/Litro de Gasolina</string>
+</resources>
